@@ -1,5 +1,3 @@
-package Chapter2.MeaningfulContext;
-
 public class GuessStatisticsMessage {
     private String number;
     private String verb;

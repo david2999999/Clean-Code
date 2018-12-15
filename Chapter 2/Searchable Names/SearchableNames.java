@@ -1,5 +1,3 @@
-package Chapter2.SearchableNames;
-
 public class SearchableNames {
     private int badExample() {
         int s;

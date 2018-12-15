@@ -1,5 +1,3 @@
-package Chapter2.MeaningfulContext;
-
 public class BadExample {
     // The function is a bit too long and the variables are used throughout
     // to split the function into smaller pieces we need to create a

@@ -1,5 +1,3 @@
-package Chapter2.PronounceableNames;
-
 import java.util.Date;
 
 public class Customer {
