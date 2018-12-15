@@ -1,6 +1,7 @@
 package Chapter2;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class IntentionalRevealingNames {
@@ -42,4 +43,22 @@ public class IntentionalRevealingNames {
         return flaggedCells;
     }
 
+
+    private static class Cell {
+        private boolean flagged;
+
+        public boolean isFlagged() {
+            return flagged;
+        }
+    }
+
+    private List<Cell> gameBoard2;
+    public List<Cell> getFlaggedCells2() {
+        List<Cell> flaggedCells = new ArrayList<>();
+        for (Cell cell: gameBoard2)
+            if (cell.isFlagged())
+                flaggedCells.add(cell);
+
+        return flaggedCells;
+    }
 }
