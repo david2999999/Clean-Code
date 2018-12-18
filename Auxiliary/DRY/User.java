@@ -9,25 +9,25 @@ public class User {
 		this.name = name;
 	}
 	
-	public void eatBreakfast() {
-		System.out.println("Setting up breakfast table");
-		eatAndCleanUp();
+
+	public void eatAt(String timeOfTheDay) {	
+		if (timeOfTheDay.equalsIgnoreCase("dinner")  
+				|| timeOfTheDay.equalsIgnoreCase("lunch")
+				|| timeOfTheDay.equalsIgnoreCase("breakfast"))  {
+			System.out.println("Setting up" + timeOfTheDay + "table");
+			System.out.println("Pick up fork");
+			System.out.println("eat");
+			System.out.println("clean up");
+		} else {
+			System.out.println("Unknown time of day");
+		}
 	}
 	
-	public void eatDinner() {
-		System.out.println("Setting up dinner table");
-		eatAndCleanUp();
+	public String getName() {
+		return name;
 	}
-	
-	public void eatLunch() {
-		System.out.println("Setting up lunch table");
-		eatAndCleanUp();
-	}
-	
-	// create a new method for DRY principle
-	public void eatAndCleanUp() {
-		System.out.println("Pick up fork");
-		System.out.println("eat");
-		System.out.println("clean up");
+
+	public void setName(String name) {
+		this.name = name;
 	}
 }
