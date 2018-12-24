@@ -1,26 +1,7 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+## Clean Code
 
+Clean code is critical in the software industry as it is perceived as what makes or breaks a project. Startups and companies have shut down because of the insurmountable technical debt that unclean code has brought them.
 
-Hi there! Welcome to Cloud9 IDE!
+“He who has a why to live for can bear almost any how” is a very well-known quote from Friedrich Nietzsche’s Twilight of the Idols.
 
-To get you started, we included a small hello world application.
-
-1) Open the hello-world.html file
-
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+When people have ingrained a habit, it is very hard to break them. The best way is to make them want to change by showing that it is in their best interest to do so. This is why I’m starting this article with an explanation on the importance of clean code in our application and by dismantling a few misconceptions in our work as software developers.
