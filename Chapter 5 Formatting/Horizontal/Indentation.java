@@ -6,7 +6,7 @@ FitNesseExpediter(s, context);
 sender.setRequestParsingTimeLimit(requestTimeout); sender.start(); }
 catch(Exception e) { e.printStackTrace(); } } }
 
------
+// -------
 
 public class FitNesseServer implements SocketServer {
     private FitNesseContext context;
